@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+}
+.button1{
+  margin: 0 auto;
+  padding: 8px 25px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: gray;
+  outline: none;
+  box-shadow: 0 0 5px lightgrey;
+}
+.button1:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.main{
+  background-color: rgb(206, 206, 206);
+  text-align: center;
+}
