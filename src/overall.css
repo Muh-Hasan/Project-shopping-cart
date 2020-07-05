@@ -1,15 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: black;
 }
 .product-flex{
-    text-align: center;
+    text-align: left;
     margin-right: 20px;
-    height: 140px;
-    width: 140px;
-    border: 2px solid black;
+    height: 400px;
+    width: 300px;
     margin-top : 50px;
-    box-shadow: 0 0 10px gray;
 }
 .product-flex-2{
     justify-content: center;
@@ -20,23 +20,23 @@
 .product-flex h4{
     margin-top: 10px;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
 }
 .product-flex h5{
+    color: gray;
     margin-bottom: 20px;
-    text-align: left;
-    font-weight: 600;
-    margin-left: 25px;
+    font-weight: 400;
     font-size: 18px;
 }
 
 .product-button{
-  padding: 10px 20px;
+  padding: 10px 70px;
   margin-bottom: 10px;
   border: none;
   background-color: lightgrey;
     outline: none;
+  font-weight: 600;  
 }
 .product-button:hover{
     background-color: black;
@@ -80,4 +80,49 @@ table {
 .cart-button:hover{
     background-color: black;
     color: white;
+}
+
+.flex-display{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-display img {
+    height: 500px;
+    width: 700px;
+    margin-left: 10px;
+}
+.flex-display h5{
+    color: gray;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;   
+}
+.flex-display h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.margin-left{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 722px){
+    .flex-display img{
+        height: 500px;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 521px){
+    .flex-display img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 418px){
+    .flex-display img{
+        height: 300px;
+        width: 300px;
+    }
 }
